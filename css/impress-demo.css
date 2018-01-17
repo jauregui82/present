@@ -794,6 +794,16 @@ body.impress-mouse-timeout div#impress-toolbar {
     top: 14%;
     left: 21%;
 }
+.imgBenecont{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.imgBenefcont{
+    position: absolute;
+    top: 32%;
+    left: 17%;
+}
 .mapa{
     color: #B00C0C;
 }
