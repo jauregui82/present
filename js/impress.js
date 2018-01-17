@@ -1051,6 +1051,8 @@
             // Remember whether it was there or not.
             if ( document.body.classList.contains( "impress-not-supported" ) ) {
                 startingState.body.impressNotSupported = true;
+                // $('div#impress').css("display", "none");
+                // jauregui
             } else {
                 startingState.body.impressNotSupported = false;
             }

@@ -742,6 +742,9 @@ body.impress-mouse-timeout {
 */
 
 /*jauregui class*/
+body.impress-mouse-timeout div#impress-toolbar {
+    display: none;
+}
 .logoSunat{
     width: 36%;
     position: absolute;
@@ -779,4 +782,25 @@ body.impress-mouse-timeout {
     position: absolute;
     left: 1%;
     width: 100%;
+}
+.imgCost{
+    position: absolute;
+    left: 3%;
+    top: 24%;
+    width: 94%;
+}
+.mapa{
+    color: #B00C0C;
+}
+.desktop{
+    color: #B00C0C;
+}
+.phone{
+    color: #B00C0C;
+}
+.envelope{
+    color: #B00C0C;
+}
+.mobile{
+    color: #B00C0C;
 }
