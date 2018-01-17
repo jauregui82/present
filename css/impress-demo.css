@@ -789,6 +789,11 @@ body.impress-mouse-timeout div#impress-toolbar {
     top: 24%;
     width: 94%;
 }
+.imgBene{
+    position: absolute;
+    top: 14%;
+    left: 21%;
+}
 .mapa{
     color: #B00C0C;
 }
