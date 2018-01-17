@@ -769,3 +769,14 @@ body.impress-mouse-timeout {
     position: absolute;
     left: 16%;
 }
+.imgReq{
+    position: absolute;
+    left: 28%;
+    top: 34%;
+    width: 45%;
+}
+.imgMod{
+    position: absolute;
+    left: 1%;
+    width: 100%;
+}
