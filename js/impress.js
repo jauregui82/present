@@ -151,7 +151,7 @@
     if ( !impressSupported ) {
 
         // We can't be sure that `classList` is supported
-        body.className += " impress-not-supported ";
+        body.className += " impress-supported ";
     }
 
     // GLOBALS AND DEFAULTS
@@ -212,7 +212,7 @@
         // The gc library depends on being initialized before we do any changes to DOM.
         lib = initLibraries( rootId );
 
-        body.classList.remove( "impress-not-supported" );
+        body.classList.remove( "impress-supported" );
         body.classList.add( "impress-supported" );
 
         // Data of all presentation steps
@@ -1046,10 +1046,10 @@
         if ( rootsCount === 0 ) {
             startingState.body = {};
 
-            // It is customary for authors to set body.class="impress-not-supported" as a starting
+            // It is customary for authors to set body.class="impress-supported" as a starting
             // value, which can then be removed by impress().init(). But it is not required.
             // Remember whether it was there or not.
-            if ( document.body.classList.contains( "impress-not-supported" ) ) {
+            if ( document.body.classList.contains( "impress-supported" ) ) {
                 startingState.body.impressNotSupported = true;
                 // $('div#impress').css("display", "none");
                 // jauregui
@@ -1135,7 +1135,7 @@
             // are only reset when all are uninitialized.
             document.body.classList.remove( "impress-supported" );
             if ( startingState.body.impressNotSupported ) {
-                document.body.classList.add( "impress-not-supported" );
+                document.body.classList.add( "impress-supported" );
             }
 
             // We need to remove or reset the meta element inserted by impress.js

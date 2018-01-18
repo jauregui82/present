@@ -838,3 +838,14 @@ body.impress-mouse-timeout div#impress-toolbar {
     color: #FFFFFF;
     background: #6A6262;
 }
+#pre-load-web{
+    height: 100%;
+    background: #354a4ccf;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+#imagen-load{
+    margin-top: 37%;
+    text-align: center;
+}
