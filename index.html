@@ -48,30 +48,6 @@
 </head>
 <script>
     $(document).ready(function() {
-        // $("#impress").css('display','none');
-        // $(".hint").css('display','none');
-        // $(".impress-supported .fallback-message ").css('display','none');
-
-        // //eliminamos el scroll de la pagina
-        // // $("body").css({"overflow-y":"hidden"});
-        // //guardamos en una variable el alto del que tiene tu browser que no es lo mismo que del DOM
-        // var alto=$(window).height();
-        // //agregamos en el body un div que sera que ocupe toda la pantalla y se muestra encima de todo
-        // $("body").append("<div id='pre-load-web'><div id='imagen-load'><img src='http://preloaders.net/preloaders/359/Filling%20circles.gif'  /><br />Cargando...</div>");        
-
-
-    // $(window).load(function(){
-    //    $("#pre-load-web").fadeOut(1000,function()
-    //    { 
-    //        //eliminamos la capa de precarga
-    //        $(this).remove();
-    //        //permitimos scroll
-    //        $("body").css({"overflow-y":"auto"}); 
-    //        $("#impress").css('display','block');
-    //         $(".hint").css('display','block');
-    //         $(".impress-supported .fallback-message ").css('display','none');
-    //    });        
-    // }) 
         var bodyIni= $('body').hasClass('impress-supported impress-enabled');
         if (bodyIni== false) {
             $("#impress").css('display','none');
