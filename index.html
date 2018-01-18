@@ -31,6 +31,12 @@
     <!-- Windows Phone -->
     <meta name="msapplication-navbutton-color" content="#41b5a6f0">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
     <link href="css/impress-demo.css" rel="stylesheet" />
@@ -38,48 +44,49 @@
     
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    
 </head>
 
 <body class="impress-not-supported">
 
 
 <div class="fallback-message">
-    <p>Lo siento, su navegador no soporta este tipo de animaciones</p>
+    <p>Lo siento, su navegador no soporta este tipo de animaciones <br>presione <a href="http://www.mmconsultoresinformaticos.net/fact/">Aquí</a> para continuar</p>
 </div>
-
-
 <!-- <div id="impress" data-autoplay="7"> -->
-<div id="impress" class="Jauregui">
+<div id="impress" class="jauregui">
     <div id="title2" class="step" data-x="0" data-y="10000" data-scale="4">
     </div>
 
     <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try"><img src="" alt=""></span>
-        <h1>Facturación Electrónica<sup>*</sup></h1>
+     <div id="irWeb" class="irWeb">
+        <a class="btn" href="http://mmconsultoresinformaticos.net" target="_blank">Ir la la Pagina Web</a>
+    </div>
         <span class="footnote"><img class="logoMm" src="img/logomm.png" alt=""></span>
+        <h1>Facturación Electrónica</h1>
     </div>
 
-    <div id="bored" class="step slide" data-x="-1000" data-y="-1500" data-autoplay="10">
+    <div id="bored" class="step slide" data-x="-1000" data-y="-2000" data-autoplay="10">
         <q align="center"><b>FACTURACIÓN ELECTRÓNICA </b></q><br>
         <p align="center">Es el tipo de comprobante de pago denominado FACTURA, emitido a través del sistema de misión electrónica desarrollado desde los sistemas del contribuyente. También considera las Notas de Débito y Crédito vinculadas a la Factura Electrónica desde el Contribuyente.</p>
         <span><img class="imgFact" src="img/fact.png" alt=""></span>
     </div>
 
 
-    <div class="step slide" data-x="0" data-y="-1500">
+    <div class="step slide" data-x="0" data-y="-2000">
         <p align="center"><b>REQUERIMIENTOS PARA SU IMPLEMENTACIÓN</b></p> <br>
         <p align="center">Para implementar la Facturación Electrónica, es indispensable contar con lo siguiente:</p>
         <span><img class="imgReq" src="img/requerimientos.png" alt=""></span>
     </div>
 
-    <div class="step slide" data-x="1000" data-y="-1500">
+    <div class="step slide" data-x="1000" data-y="-2000">
         <q align="center"><b>ESQUEMA FACTURACÓN ELECTRÓNICA</b></q> <br>
         <span><img class="imgEsq" src="img/esquema.png" alt=""></span>
     </div>
     
 
 
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+    <div id="its" class="step" data-x="850" data-y="4000" data-rotate="90" data-scale="5">
         <p align="center"><b>MODELOS DE IMPLEMENTACIÓN FACTURACIÓN ELECTRÓNICA</b></p>
     </div>
 
@@ -88,7 +95,11 @@
     </div>
 
  
-    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+     <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p><b>BENEFECIOS DE NUESTRO SOFTWARE</b></p>
+    </div>
+
+<!--  <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
         <p><b>INVERSIÓN INICIAL</b></p>
     </div>
 
@@ -102,14 +113,15 @@
 
     <div id="imagination2" class="step slide" data-x="6700" data-y="-2100" data-rotate="180">
         <span><img class="imgCost" src="img/costos.png" alt=""></span>
-    </div>
+    </div> -->
     
 
-    <div id="source1" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4" align="center">
+  <!--   <div id="source1" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4" align="center">
         <q>BENEFECIOS DE NUESTRO SOFTWARE</q>
-    </div>
+    </div> -->
 
     <div id="beneficios" class="step slide" data-x="10300" data-y="1000" data-rotate="20" data-scale="4">
+        <span align="center"><P><b>REQUERIMIENTOS PERSONALIZADOS PARA LA EMPRESA</b></P></span>
         <span><img class="imgBene" src="img/beneficios.png" alt=""></span>
     </div>
     <div id="beneficios2" class="step slide" data-x="9300" data-y="4000" data-rotate="20" data-scale="4">
@@ -121,18 +133,54 @@
         <span><img class="imgBenefcont" src="img/benefCont.png" alt=""></span>
     </div>
 
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4100" data-scale="2">
         <p>Contáctanos...</p>
     </div>
 
     <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2" style="font-size: 2.5em">
-        <p><i class="fa fa-map-marker mapa" aria-hidden="true"></i><a href="https://www.google.com/maps?ll=-12.041536,-77.097409&z=16&t=m&hl=es-419&gl=PE&mapclient=embed&q=Manco+Capac+195+Carmen+De+La+Legua+Reynoso+07006" target="_blank"> Av. Manco Cápac 195-Carmen de la Legua Reynoso – Callao</a></p> 
-        <p><i class="fa fa-desktop desktop" aria-hidden="true"></i><a href="http://www.mmconsultoresinformaticos.net" target="_blank">www.mmconsultoresinformaticos.net</a></p>
-        <p style="font-size: 0.8em"><i class="fa fa-envelope-o envelope" aria-hidden="true"></i><a href="mailto:contactenos@mmconsultoresinformaticos.net" target="_blank"> contactenos@mmconsultoresinformaticos.net</a></p>
-        <p><i class="fa fa-phone phone" aria-hidden="true"></i><a href="tel:+51012206593" target="_blank">Oficina: (01) 220-6593</a></p>
-        <p><i class="fa fa-mobile mobile" aria-hidden="true"></i><a href="tel:+51997342110" target="_blank"> Móvil : 979-342-110</a></p>
 
 
+        <div class="row">
+            <div class="col-1">
+                <i class="fa fa-map-marker mapa" aria-hidden="true"></i>
+            </div>
+            <div class="col">
+
+              <p><a href="https://www.google.com/maps?ll=-12.041536,-77.097409&z=16&t=m&hl=es-419&gl=PE&mapclient=embed&q=Manco+Capac+195+Carmen+De+La+Legua+Reynoso+07006" target="_blank"> Av. Manco Cápac 195 <br>Carmen de la Legua Reynoso – Callao</a></p>   
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <i class="fa fa-desktop desktop" aria-hidden="true"></i>
+            </div>
+            <div class="col">
+                <p><a href="http://www.mmconsultoresinformaticos.net" target="_blank">www.mmconsultoresinformaticos.net</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <i class="fa fa-envelope-o envelope" aria-hidden="true"></i>
+            </div>
+            <div class="col">
+                <p style="font-size: 0.8em"><a href="mailto:contactenos@mmconsultoresinformaticos.net" target="_blank"> contactenos@mmconsultoresinformaticos.net</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <i class="fa fa-phone phone" aria-hidden="true"></i>
+            </div>
+            <div class="col">
+                 <p><a href="tel:+51012206593" target="_blank">Oficina: (01) 220-6593</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <i class="fa fa-mobile mobile" aria-hidden="true"></i>
+            </div>
+            <div class="col">
+                <p><a href="tel:+51997342110" target="_blank"> Móvil : 979-342-110</a></p>
+            </div>
+        </div>  
     </div>
     <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="20">
     </div>
@@ -152,9 +200,22 @@ if ("ontouchstart" in document.documentElement) {
 }
 </script>
 
-
 <script src="js/impress.js"></script>
 <script>impress().init();</script>
+<script>
+    $(document).ready(function() {
+        var bodyIni= $('body').hasClass('impress-supported impress-enabled');
+        var web= $("#impress .jauregui");
+        if (bodyIni== false) {
+            $("#impress").css('display','none');
+            $(".hint").css('display','none');
+            $(".impress-supported .fallback-message ").css('display','block');
+            $(".impress-supported .fallback-message ").css('display','block');
+            $(".impress-enabled ").css('pointer-events','auto');
+            $(".impress-disabled ").css('pointer-events','auto');
+        }
+    });
+</script>
 </body>
 </html>
 

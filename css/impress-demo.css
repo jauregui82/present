@@ -141,22 +141,31 @@ a:focus {
     font-family: sans-serif;
     line-height: 1.3;
 
-    width: 780px;
+    width: 97%;
+    /*width: 780px;*/
     padding: 10px 10px 0;
     margin: 20px auto;
 
     border: 1px solid #E4C652;
     border-radius: 10px;
     background: #EEDC94;
+    font-size: 3em;
 }
 
 .fallback-message p {
     margin-bottom: 10px;
+    text-align: center;
+}
+#impress{
+    /*display: none;*/
 }
 
 .impress-supported .fallback-message {
     display: none;
 }
+/*.impress-enabled{
+    display: none;
+}*/
 
 /*
     Now let's style the presentation steps.
@@ -753,12 +762,13 @@ body.impress-mouse-timeout div#impress-toolbar {
     border-radius: 11px;
 }
 .logoMm{
-    position: absolute;
+    position: relative;
     width: 36%;
-    height: 51%;
-    left: 0;
-    top: 100%;
+    /* height: 134px; */
+    left: 35%;
+    /*top: 59px;*/
     background: #fff;
+    background-size: 10% 10%;
     border-radius: 11px;
 }
 .imgFact{
@@ -818,4 +828,13 @@ body.impress-mouse-timeout div#impress-toolbar {
 }
 .mobile{
     color: #B00C0C;
+}
+.irWeb{
+    position: fixed;
+    top: -3%;
+    right: -8%;
+}
+.irWeb a:hover{
+    color: #FFFFFF;
+    background: #6A6262;
 }

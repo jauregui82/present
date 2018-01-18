@@ -1053,6 +1053,7 @@
                 startingState.body.impressNotSupported = true;
                 // $('div#impress').css("display", "none");
                 // jauregui
+                // alert("hola");
             } else {
                 startingState.body.impressNotSupported = false;
             }
